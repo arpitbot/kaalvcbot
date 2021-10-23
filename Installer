@@ -1,0 +1,13 @@
+aiohttp
+asyncio
+ffmpeg-python
+psutil
+python-dotenv
+youtube-search-python
+pytgcalls[pyrogram]
+requests
+TgCrypto
+wheel
+youtube_search
+yt-dlp
+yt_dlp

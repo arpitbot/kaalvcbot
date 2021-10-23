@@ -1,0 +1,35 @@
+{
+    "name": "KaalVCBot",
+    "logo": "https://te.legra.ph/file/4c32174b12da14abca618.jpg",
+    "description": "A Voice Chat Userbot Created By Kaal",
+    "keywords": ["music", "voice chat", "tgvcbot"],
+    "repository": "https://github.com/iamkaal/kaalvcbot",
+    "stack": "container",
+    "env": {
+        "API_ID": {
+            "description": "Your App ID",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "Your Api Hash",
+            "required": true
+        },
+        "STRING_SESSION": {
+            "description": "Pyrogram String Seaaion",
+            "required": true
+        },
+
+        "SUDO_USERS": {
+            "description": "Your Telegram User ID",
+            "required": true
+        }
+    },
+    "buildpacks": [
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
